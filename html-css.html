@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Margin, Border, and Padding</title>
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+  </head>
+  <style>
+
+    .boxtext {
+      text-align: center;
+      color: black;
+    }
+    
+
+    .blueboxnoboder {
+      padding: 20px;
+      height: 100px;
+      width: 100px;
+      background: deepskyblue;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .blueboxborder {
+      padding: 20px;
+      height: 100px;
+      width: 100px;
+      background: deepskyblue;
+      border: solid;
+      margin-left: 20px;
+      margin-top: 20px;
+      
+    }
+    .greenbox1 {
+      padding: 20px;
+      height: 100px;
+      width: 100px;
+      background: aquamarine;
+      border: solid;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 100px;
+      margin-left: 100px;
+
+    }
+    .greenboxpad {
+      padding: 40px;
+      height: 100px;
+      width: 100px;
+      background: aquamarine;
+      border: solid;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 100px;
+      margin-left: 100px;
+
+    }
+    .h2text {
+      color: darkcyan;
+    }
+  </style>
+  <body>
+    <h1>Margin, border, and padding differences</h1>
+
+    <p>
+      Margin, border, and padding are characteristics that control space in and
+      around HTML elements (different types of media on a website).
+    </p>
+    <h2 class="h2text">Border</h2>
+    <p>
+      A border surrounds an element. You can chose to give an element a visible
+      border, below is an element with, and an element without a boxer
+    </p>
+    <div class="blueboxnoboder">
+      <p class="boxtext">No border</p>
+    </div>
+    <div class="blueboxborder">
+      <p class="boxtext">Border</p>
+    </div>
+    <h2 class="h2text">Margin</h2>
+    <p>
+      The margin is how much space there is between the element's border and
+      surrounding elements. Here the box has a margin of 100 pixels on every
+      side:
+    </p>
+    <div class="greenbox1"></div>
+    <h2 class="h2text">Padding</h2>
+    <p>
+      Padding is how much space there is between an element, and the content
+      inside of it. Here you can see adding more padding to the second box created more space between the text and border of the box.
+    </p>
+    <div class="greenbox1">
+      <p class="boxtext">Less padded</p>
+    </div>
+    <div class="greenboxpad">
+      <p class="boxtext">More padded</p>
+  </body>
+</html>
