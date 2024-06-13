@@ -5,6 +5,30 @@ h4,
 p {
   font-family: sans-serif, monospace;
 }
-h1 {
+h1,
+h2 {
   text-align: center;
+  margin-top: 50px;
+}
+body {
+  height: 100%;
+  background-image: url(/images/eastbourne.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  padding: 40px;
+}
+.contentwrap {
+  position: relative;
+  background: rgb(234, 219, 123);
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 200px;
+  max-width: 1000px;
+  padding: 20px;
 }

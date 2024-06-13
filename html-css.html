@@ -60,16 +60,19 @@
     }
   </style>
   <body>
+    <div class="contentwrap">
     <h1>Margin, border, and padding differences</h1>
 
-    <p>
+    <p class="contentwrap"> 
       Margin, border, and padding are characteristics that control space in and
       around HTML elements (different types of media on a website).
     </p>
-    <h2 class="h2text">Border</h2>
+    </div>
+    <div class="contentwrap">
+    <h2>Border</h2>
     <p>
       A border surrounds an element. You can chose to give an element a visible
-      border, below is an element with, and an element without a boxer
+      border, below is an element with, and an element without a border
     </p>
     <div class="blueboxnoborder">
       <p class="boxtext">No border</p>
@@ -77,13 +80,17 @@
     <div class="blueboxborder">
       <p class="boxtext">Border</p>
     </div>
-    <h2 class="h2text">Margin</h2>
+    </div>
+    <div class="contentwrap">
+    <h2>Margin</h2>
     <p>
       The margin is how much space there is between the element's border and
       surrounding elements. Here the box has a margin of 100 pixels on every
       side:
     </p>
     <div class="greenbox1"></div>
+    </div>
+    <div class="contentwrap">
     <h2 class="h2text">Padding</h2>
     <p>
       Padding is how much space there is between an element, and the content
@@ -94,5 +101,6 @@
     </div>
     <div class="greenboxpad">
       <p class="boxtext">More padded</p>
+    </div>
   </body>
 </html>
