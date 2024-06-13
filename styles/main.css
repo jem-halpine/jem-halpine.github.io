@@ -10,6 +10,9 @@ h2 {
   text-align: center;
   margin-top: 50px;
 }
+h2 {
+  color: darkcyan;
+}
 body {
   height: 100%;
   background-image: url(/images/eastbourne.jpeg);
@@ -31,4 +34,9 @@ body {
   min-width: 200px;
   max-width: 1000px;
   padding: 20px;
+}
+@media only screen and (max-width: 480px) {
+  .contentwrap {
+    width: 20%;
+  }
 }

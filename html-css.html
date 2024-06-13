@@ -6,12 +6,11 @@
     <link rel="stylesheet" href="styles/main.css" type="text/css" />
   </head>
   <style>
-
     .boxtext {
       text-align: center;
       color: black;
+      font-size: 2vw;
     }
-    
 
     .blueboxnoborder {
       padding: 20px;
@@ -29,7 +28,6 @@
       border: solid;
       margin-left: 20px;
       margin-top: 20px;
-      
     }
     .greenbox1 {
       padding: 20px;
@@ -37,11 +35,10 @@
       width: 100px;
       background: aquamarine;
       border: solid;
-      margin-top: 100px;
-      margin-bottom: 100px;
-      margin-right: 100px;
-      margin-left: 100px;
-
+      margin-top: 80px;
+      margin-bottom: 80px;
+      margin-right: 80px;
+      margin-left: 80px;
     }
     .greenboxpad {
       padding: 40px;
@@ -53,54 +50,57 @@
       margin-bottom: 100px;
       margin-right: 100px;
       margin-left: 100px;
-
     }
-    .h2text {
-      color: darkcyan;
+    .box {
+      max-width: 10vw;
+      max-height: 10vw;
     }
   </style>
   <body>
     <div class="contentwrap">
-    <h1>Margin, border, and padding differences</h1>
+      <h1>Margin, border, and padding differences</h1>
 
-    <p class="contentwrap"> 
-      Margin, border, and padding are characteristics that control space in and
-      around HTML elements (different types of media on a website).
-    </p>
+      <p class=>
+        Margin, border, and padding are characteristics that control space in
+        and around HTML elements (different types of media on a website).
+      </p>
     </div>
     <div class="contentwrap">
-    <h2>Border</h2>
-    <p>
-      A border surrounds an element. You can chose to give an element a visible
-      border, below is an element with, and an element without a border
-    </p>
-    <div class="blueboxnoborder">
-      <p class="boxtext">No border</p>
-    </div>
-    <div class="blueboxborder">
-      <p class="boxtext">Border</p>
-    </div>
-    </div>
-    <div class="contentwrap">
-    <h2>Margin</h2>
-    <p>
-      The margin is how much space there is between the element's border and
-      surrounding elements. Here the box has a margin of 100 pixels on every
-      side:
-    </p>
-    <div class="greenbox1"></div>
+      <h2>Border</h2>
+      <p>
+        A border surrounds an element. You can chose to give an element a
+        visible border, below is an element with, and an element without a
+        border
+      </p>
+      <div class="blueboxnoborder box">
+        <p class="boxtext">No border</p>
+      </div>
+      <div class="blueboxborder box">
+        <p class="boxtext">Border</p>
+      </div>
     </div>
     <div class="contentwrap">
-    <h2 class="h2text">Padding</h2>
-    <p>
-      Padding is how much space there is between an element, and the content
-      inside of it. Here you can see adding more padding to the second box created more space between the text and border of the box.
-    </p>
-    <div class="greenbox1">
-      <p class="boxtext">Less padded</p>
+      <h2>Margin</h2>
+      <p>
+        The margin is how much space there is between the element's border and
+        surrounding elements. Here the box has a margin of 80 pixels on every
+        side:
+      </p>
+      <div class="greenbox1 box"></div>
     </div>
-    <div class="greenboxpad">
-      <p class="boxtext">More padded</p>
+    <div class="contentwrap">
+      <h2>Padding</h2>
+      <p>
+        Padding is how much space there is between an element, and the content
+        inside of it. Here you can see adding more padding to the second box
+        created more space between the text and border of the box.
+      </p>
+      <div class="greenbox1 box">
+        <p class="boxtext">Less padded</p>
+      </div>
+      <div class="greenboxpad box">
+        <p class="boxtext">More padded</p>
+      </div>
     </div>
   </body>
 </html>
