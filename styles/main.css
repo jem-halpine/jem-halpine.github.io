@@ -14,6 +14,9 @@ h2 {
   margin: 40px;
   color: darkcyan;
 }
+p {
+  line-height: 1.5;
+}
 body {
   height: 100%;
   background-image: url(/images/eastbourne.jpeg);
