@@ -39,6 +39,17 @@ body {
   max-width: 800px;
   padding: 20px, 20px, 80px 20px;
 }
+.titlewrap {
+  position: relative;
+  background: hwb(31 89% 2%);
+  padding: 20px 20px 20px 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  min-width: 200px;
+  max-width: 850px;
+  padding: 50px;
+}
 .navbar {
   font-family: sans-serif, monospace;
   list-style-type: none;
